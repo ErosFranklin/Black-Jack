@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackjack.css" type="text/css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body>
+        <div id="cadastro">
+            <h1> Cadastro de Jogador </h1>
+            <form id="myForm">
+                <label for="texto" style="font-family: 'Blackletter', 'Gothic', serif; font-weight: bold;color: white; font-size: 20px; margin-right: 5px;text-shadow: 2px 2px 2px black;">Digite seu Nome:</label>
+                <input type="text" id="texto" name="texto" required   required style="width: 400px; height: 30px;margin-right: 40px;">
+                <button type="submit" class="start" style="display: block; margin: 30px auto;" onclick="enviar()">Enviar</button>
+            </form>
+            <a href="jogar.html" id="continuar" style="display: none;" class="start">Continuar</a>
+        </div> 
+        <a href="index.html" class="start" >Voltar</a>
+        <img src="./cartas/moedas.png " class="canto-inferior-esquerdo">
+</body>
+</html>

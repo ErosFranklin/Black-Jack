@@ -1,0 +1,312 @@
+body{
+  font-family: 'Blackletter', 'Gothic', serif;
+  text-align: center;
+  background-image: url('./cartas/fundo-fundo1.avif'); /* Substitua 'caminho/da/sua/imagem.jpg' pelo caminho da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o background */
+  color: rgb(247, 235, 113);
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);;
+
+}
+.canto-inferior-esquerdo {
+  position: absolute;
+  bottom: 60px;
+  left: 70px;
+  width: 600px; /* largura desejada */
+  height: auto; /* altura ajustável conforme necessário */
+}
+.cartas-fundo {
+  position: fixed; /* ou absolute, dependendo do comportamento desejado */
+  bottom: -90px;
+  left: -130px;
+  width: 510px; /* largura desejada */
+  height: auto; /* altura ajustável conforme necessário */
+  transform: rotate(-15deg);
+}
+#Computador-cartas img{
+  height: 150px;
+  width: 100px;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+#Computador-2-cartas img{
+  height: 150px;
+  width: 100px;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+#Computador-3-cartas img{
+  height: 150px;
+  width: 100px;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+#Jogador-cartas img{
+  height: 150px;
+  width: 100px;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+
+#Pedir{
+  background: #903; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 30px; /* Espaçamento interno */
+  margin: 10px;
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Mostrar como elemento em linha */
+  font-family: 'Blackletter', 'Gothic', serif;
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold;
+  border-radius: 10px; /* Cantos arredondados */
+  border: none; /* Remover borda */
+  cursor: pointer; /* Alterar cursor ao passar por cima */
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+#Pedir:hover{
+  background: rgb(247, 235, 113);
+  color: rgb(0, 0, 0);
+  border-color: #000;
+}
+
+#Parar{
+  background: #903; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 30px; /* Espaçamento interno */
+  margin: 10px;
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Mostrar como elemento em linha */
+  font-family: 'Blackletter', 'Gothic', serif;
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold;
+  border-radius: 10px; /* Cantos arredondados */
+  border: none; /* Remover borda */
+  cursor: pointer; /* Alterar cursor ao passar por cima */
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+#Parar:hover{
+  background: rgb(247, 235, 113);
+  color: rgb(0, 0, 0);
+  border-color: #000;
+}
+.start{
+  background: #903; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 30px; /* Espaçamento interno */
+  margin: 30px;
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Mostrar como elemento em linha */
+  font-family: 'Blackletter', 'Gothic', serif;
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold;
+  border-radius: 10px; /* Cantos arredondados */
+  border: none; /* Remover borda */
+  cursor: pointer; /* Alterar cursor ao passar por cima */
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+.start:hover{
+  background: rgb(247, 235, 113);
+  color: rgb(0, 0, 0);
+  border-color: #000;
+}
+
+
+* {
+  font-family: 'Blackletter', 'Gothic', serif;
+  text-align: center;
+  font-weight: bold;
+  
+}
+#menu img{
+  display:block;
+  margin: -110px auto 0;
+  width: 700px; /* largura desejada */
+  height: auto; /* altura ajustável conforme necessário */
+}
+#menu ul {
+ 
+  list-style: none;
+  margin: auto;
+  padding: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  text-align: center;
+}
+
+#menu li {
+  height: 40px;
+  margin: 8px;
+  padding: 6px;
+  display: block; /* Para alinhar os itens horizontalmente */
+}
+
+#menu li a {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 0px solid #f00;
+  background: #903;
+  text-decoration: none;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+#menu li a:hover {
+  background: rgb(247, 235, 113);
+  color: rgb(0, 0, 0);
+  border-color: #000;
+}
+#menu h1 {
+  text-align: center; /* Alinha o título ao centro */
+  color: #333; /* Cor do texto */
+  font-size: 50px; /* Tamanho da fonte */
+  font-family: 'Blackletter', 'Gothic', sans-serif; /* Fonte da família */
+  height: 30px;
+  margin: 30px;
+  padding: 5px;
+}
+
+#jogar ul {
+  list-style: none;
+  margin: auto;
+  padding: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  display: flex;
+  text-align: center;
+  height: 85vh;
+  align-items: center; 
+  justify-content: center; 
+}
+
+#jogar li {
+  height: 30px;
+  margin: 20px;
+  padding: 5px;
+  display: inline; /* Para alinhar os itens horizontalmente */
+}
+
+#jogar li a {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 0px solid #f00;
+  background: #903;
+  text-decoration: none;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+#jogar li a:hover {
+  background: rgb(247, 235, 113);
+  color: rgb(0, 0, 0);
+  border-color: #000;
+}
+#jogar h1{
+  text-align: center; /* Alinha o título ao centro */
+  color: #a70000; /* Cor do texto */
+  font-size: 80px; /* Tamanho da fonte */
+  font-family: 'Blackletter', 'Gothic', sans-serif;/* Fonte da família */
+  font-weight: bold;
+  height: 30px;
+  margin: 80px;
+  padding: 5px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#cadastro ul {
+  list-style: none;
+  margin: auto;
+  padding: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  display: flex;
+  text-align: center;
+  height: 85vh;
+  align-items: center; 
+  justify-content: center; 
+  
+}
+
+#cadastro li {
+  height: 30px;
+  margin: 20px;
+  padding: 5px;
+  display: inline; /* Para alinhar os itens horizontalmente */
+}
+
+#cadastro li a {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 0px solid #f00;
+  background: #903;
+  text-decoration: none;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  border-radius: 30px;
+}
+
+#cadastro li a:hover {
+  background: #CCC;
+  color: #000;
+  border-color: #000;
+}
+#cadastro h1{
+  text-align: center; /* Alinha o título ao centro */
+  color: #a70000; /* Cor do texto */
+  font-size: 80px; /* Tamanho da fonte */
+  font-family: Roboto, sans-serif; /* Fonte da família */
+  font-weight: bold;
+  height: 30px;
+  margin: 80px;
+  text-shadow: 2px 2px 2px black;
+  padding: 5px;
+
+}
+#pontuacoes h1{
+  text-align: center; /* Alinha o título ao centro */
+  color: #a70000; /* Cor do texto */
+  font-size: 50px; /* Tamanho da fonte */
+  font-family: Roboto, sans-serif; /* Fonte da família */
+  font-weight: bold;
+  height: 30px;
+  margin: 30px;
+  text-shadow: 2px 2px 2px black;
+  padding: 5px;
+
+}
+footer {
+  position: fixed;
+  bottom: 10px; /* Ajuste a distância do rodapé */
+  right: 10px; /* Ajuste a distância da direita */
+  color: #ffffff; /* Cor do texto */
+  font-size: 14px; /* Tamanho do texto */
+  text-shadow: 2px 2px 2px black;
+}
